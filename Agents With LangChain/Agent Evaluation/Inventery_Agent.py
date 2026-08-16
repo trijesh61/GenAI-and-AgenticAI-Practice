@@ -8,7 +8,7 @@ load_dotenv()
 
 
 llm = ChatGroq(
-    model="qwen/qwen3-32b",
+    model="qwen/qwen3.6-27b",
     temperature=0.2
 )
 
