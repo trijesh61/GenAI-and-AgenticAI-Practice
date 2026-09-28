@@ -2,54 +2,6 @@
 *.bin
 *.sqlite3
 *.csv
-# Python-generated files
-__pycache__/
-build/
-dist/
-wheels/
-*.egg-info
-
-# Virtual environments
-.venv
-
-# Virtual environments
-.venv/
-venv/
-env/
-
-# Python cache / bytecode
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Build / packaging
-build/
-dist/
-*.egg-info/
-.eggs/
-
-# Environment variables and secrets
-.env
-.env.*
-!.env.example
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Testing / coverage / tooling caches
-.pytest_cache/
-.coverage
-htmlcov/
-.mypy_cache/
-.ruff_cache/
-
-# IDE / OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Logs and local data
-*.log
-data/
-mlruns/
+.python-version
+*.toml
+*.lock
