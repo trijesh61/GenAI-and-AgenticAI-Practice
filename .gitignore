@@ -2,4 +2,12 @@
 *.bin
 *.sqlite3
 *.csv
-MCP/my-first-mcp-server
+# Python-generated files
+__pycache__/
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
